@@ -23,6 +23,7 @@ def lightup(colour):
         green.on()
 
 if red_button.is_pressed:
+    print("RED")
     lightup("red")
 elif amber_button.is_pressed:
     lightup("amber")
