@@ -26,7 +26,7 @@ while True:
         print("AMBER")
         lightup("amber")
     elif green_button.is_pressed:
-        print("green")
-        lightup("GREEN")
+        print("GREEN")
+        lightup("green")
     sleep(0.1)
 
