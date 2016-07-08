@@ -21,13 +21,13 @@ def lightup(colour):
         amber.on()
     else:
         green.on()
-
-if red_button.is_pressed:
-    print("RED")
-    lightup("red")
-elif amber_button.is_pressed:
-    lightup("amber")
-elif green_button.is_pressed:
-    lightup("green")
+while True:
+    if red_button.is_pressed:
+        print("RED")
+        lightup("red")
+    elif amber_button.is_pressed:
+        lightup("amber")
+    elif green_button.is_pressed:
+        lightup("green")
         
-pause()
+#pause()
